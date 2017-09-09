@@ -1,0 +1,91 @@
+/*
+@font-face { 
+    font-family: 'dinpro'; 
+    src: url('../fonts/YOUR_FONT_NAME.otf');
+} 
+*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+body, html {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+#for_testing {
+    z-index: 1000;
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 6px;
+    display: none;
+}
+#universe {
+    background: #1c1c77;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    background-image: url(../images/background.svg);
+    background-size: cover;
+
+}
+#systems {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.system {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    background-image:  url(../images/sun.svg);;
+    background-position:  center center;
+    background-size:  cover;
+    background-repeat:  no-repeat;
+}

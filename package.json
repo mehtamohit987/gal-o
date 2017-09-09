@@ -1,0 +1,18 @@
+{
+    "name": "gal-o",
+    "version": "",
+    "description": "",
+    "repository": {
+      "type": "git"
+    },
+    "author": "mehtamohit987@gmail.com",
+    "license": "",
+    "keywords": [
+      "ecosystem:phonegap",
+      "ecosystem:cordova"
+    ],
+    "devDependencies": {
+      "cordova": "^7.0.1",
+      "phonegap": "^7.0.1"
+    }
+}
