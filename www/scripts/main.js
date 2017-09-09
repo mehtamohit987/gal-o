@@ -2,20 +2,6 @@
 
 window.requestAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame;
 
-// var db;
-// function initDB () {
-//     db = window.openDatabase('Database', 1.0, 'Gal-o', 2097152);
-//     db.transaction();
-// }
-
-// function createTB (tx) {
-//     tx.executeSql('CREATE TABLE IF NOT EXISTS StartSystems(coordX, coordY, radius)');
-// }
-
-// function errorCB (err) {
-//     alert(err);
-// }
-
 function gameLoop () {
     universe.focus.update();
     window.requestAnimationFrame(gameLoop);
